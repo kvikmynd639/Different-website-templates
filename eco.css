@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+.lev{
+    width:100%;
+    min-height: 100vh;
+    background-image: url(../Eco/hollingshead.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color:#fff;
+    padding:0 10%;
+}
+nav {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 0px;
+
+}
+.logo {
+    width:200px;
+}
+nav ul li{
+    display:inline-block;
+    margin:10px 30px;
+    list-style: none;
+
+}
+nav ul li a {
+    color:#E0E0E0;
+    text-decoration: none;
+    transition:0.5s;
+
+}
+nav ul li a:hover{
+    padding:10px 10px;
+    background:linear-gradient( rgb(32,32,32),rgb(72,72,72));
+    font-size:99%;
+    text-decoration: bold;
+    border-radius:49px;
+}
+
+.lev h1{
+    font-size: 75px;
+    margin-top:20%;
+
+}
+.lev button{
+    overflow: hidden;
+    z-index:1000;
+    background:#404040;
+    border:0;
+    outline:none;
+    padding:15px 40px;
+    color:#fff;
+    margin-top:30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor:pointer;
+    transition: 1.9s;
+
+}
+.lev button:hover{
+    background:linear-gradient(rgb(152,152,152),rgb(136,136,136), rgb(72,72,72));
+
+}
+.indie span{
+    background:#3a3a3a;
+    height:15px;
+    display:inline-block;
+    width:15px;
+    border-radius:60%;
+    margin-right: 20px;
+    z-index:100;
+}
+.indie{
+    margin-top:30px;
+}
+.indie .active{
+    background: #fff;
+}
+
+.cta{
+    position:absolute;
+    width:25%;
+    min-width:250px;
+    right:8%;
+    bottom:100px;
+
+
+}
+.cta button {
+    background:#404040;
+    border:0;
+    outline:none;
+    padding:15px 40px;
+    color:#fff;
+    margin-top:30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor:pointer;
+    transition:0.99s
+
+}
+.cta button:hover{
+    background:linear-gradient(rgb(152,152,152),rgb(136,136,136), rgb(72,72,72));
+
+}
+.cta button:hover{
+    background:linear-gradient(rgb(152,152,152),rgb(136,136,136), rgb(72,72,72));
+}
